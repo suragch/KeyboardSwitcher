@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Keyboard Switcher</string>
-    <string name="switch_keyboards">Switch Keyboards</string>
+    <string name="switch_keyboards">Switch\nKeyboards</string>
+    <string name="manage_keyboards">Manage\nKeyboards</string>
+    <string name="keyboard_testing_area">Keyboard testing area</string>
 </resources>

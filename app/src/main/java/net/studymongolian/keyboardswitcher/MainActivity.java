@@ -1,6 +1,8 @@
 package net.studymongolian.keyboardswitcher;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import android.provider.Settings;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -27,5 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSwitchKeyboardsButtonClick(View view) {
         showKeyboardSwitcherMenu();
+    }
+
+    public void onManageKeyboardsButtonClick(View view) {
+        Intent inputSettings = new Intent(Settings.ACTION_INPUT_METHOD_SETTINGS);
+        startActivityForResult(inputSettings, 0);
     }
 }
