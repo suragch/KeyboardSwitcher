@@ -1,4 +1,4 @@
-# IV KJV Privacy Policy
+# Keyboard Switcher Privacy Policy
 
 ### Collection of personal information
 
